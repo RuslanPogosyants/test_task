@@ -1,7 +1,7 @@
 import asyncio
 import aiohttp
 
-from app.database import db
+from repositories.mongo.database import db
 
 url = "http://localhost:8000/get_form"
 
